@@ -1,0 +1,33 @@
+{
+  "name": "online-node-version",
+  "version": "1.0.0",
+  "description": "A program to check node version available online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "onv": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13thThief/online-node-version.git"
+  },
+  "keywords": [
+    "online",
+    "node",
+    "version",
+    "update"
+  ],
+  "author": "manno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/13thThief/online-node-version/issues"
+  },
+  "homepage": "https://github.com/13thThief/online-node-version#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "ora": "^3.0.0",
+    "request": "^2.87.0"
+  }
+}
