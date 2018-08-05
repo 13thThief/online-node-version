@@ -4,7 +4,7 @@
   "description": "A program to check node version available online",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index"
   },
   "bin": {
     "onv": "index.js"
