@@ -11,12 +11,8 @@ let request = require('request');
 const NODE_URL = 'https://nodejs.org/en/';
 const URL = require('url').parse(NODE_URL);
 
-const options = {
-  url: URL
-};
-
 function fire(url) {
-  request(options, function (err, res, html) {
+  request(URL, function (err, res, html) {
     spinner.stop();
       if (err) {
         console.log(`${ URL.hostname } is unreachable OR No Internet connection`);
